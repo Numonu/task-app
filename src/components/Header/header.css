@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    padding: 1.5rem 0;
+}
+.header__title{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.header__description{
+    text-align: center;
+}
+.header__link{
+    color: #8be9fd;
+    text-decoration: underline;
+}
+.header__add{
+    --border-color :#44475a; 
+
+    width: 100%;
+    max-width: 500px;
+    padding: .5rem 0;
+
+    border: 2px solid var(--border-color);
+    border-bottom: .35rem solid var(--border-color);
+    border-radius: .5rem;
+
+    font-size: 1.2rem;
+    color: #282a36;
+
+    background-color: #f8f8f2;
+    cursor: pointer;
+}
